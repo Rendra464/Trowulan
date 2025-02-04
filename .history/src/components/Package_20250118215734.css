@@ -1,0 +1,81 @@
+.package-container {
+    height: 200vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    color: #fff;
+    position: relative;
+    font-family: 'Arial', sans-serif;
+}
+
+.package-content {
+    text-align: center;
+    padding: 20px 40px;
+    border-radius: 10px;
+    max-width: 600px;
+}
+
+.package-title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.package-subtitle {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+.video-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+.video-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 100px;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.video-text {
+    flex: 1;
+    text-align: left;
+}
+
+.video-text h2 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2.5rem;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.video-text p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.about-video {
+    flex: 1;
+}
+
+.about-video iframe {
+    width: 100%;
+    border-radius: 10px;
+}
+
+body {
+    overflow: hidden; /* Hide scrollbars */
+  }

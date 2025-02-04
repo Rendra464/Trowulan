@@ -1,0 +1,30 @@
+.package-container {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    color: #fff;
+    position: relative;
+    font-family: 'Arial', sans-serif;
+}
+
+.package-content {
+    text-align: center;
+    padding: 20px 40px;
+    border-radius: 10px;
+    max-width: 600px;
+}
+
+.package-title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.package-subtitle {
+    font-size: 18px;
+    font-weight: 300;
+}

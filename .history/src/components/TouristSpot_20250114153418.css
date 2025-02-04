@@ -1,0 +1,66 @@
+.tourist-spot {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fffbea;
+}
+
+.section-title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 30px;
+    font-family: 'Georgia', serif;
+}
+
+.spot-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.spot-card {
+    background: #fff3cd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: left;
+    width: 100%;
+    max-width: 350px;
+}
+
+.spot-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.spot-content {
+    padding: 20px;
+}
+
+.spot-content h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.spot-content p {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.learn-more-btn {
+    background-color: #ffd700;
+    border: none;
+    padding: 10px 15px;
+    color: #333;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.learn-more-btn:hover {
+    background-color: #ffc107;
+}

@@ -1,0 +1,48 @@
+.AboutDetails{
+    padding: 80px 100px;
+}
+
+.AboutDetails-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+.AboutDetails-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.AboutDetails-text {
+    flex: 1;
+    text-align: left;
+}
+
+.AboutDetails-text h2 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2.5rem;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.about-image {
+    flex: 1;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

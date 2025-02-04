@@ -1,0 +1,42 @@
+/* .AboutDetails {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color: #fdf4a1; /* Warna latar kuning */
+}
+
+.AboutDetails-container {
+    display: flex;
+    max-width: 1200px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.AboutDetails-image {
+    flex: 1;
+    min-width: 400px;
+}
+
+.carousel-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.AboutDetails-text {
+    flex: 1;
+    min-width: 400px;
+    color: #000;
+}
+
+.AboutDetails-text h2 {
+    font-family: 'Georgia', serif;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.AboutDetails-text p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}

@@ -1,0 +1,61 @@
+/* Gaya utama header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+/* Gaya untuk logo dan nama aplikasi */
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.app-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+}
+
+/* Gaya untuk menu navigasi */
+.nav-menu {
+display: flex;
+align-items: center;
+}
+
+.nav-item {
+margin: 0 15px;
+font-size: 16px;
+color: #000;
+text-decoration: none;
+cursor: pointer;
+}
+
+.nav-item:hover {
+color: #007bff;
+}
+
+/* Gaya untuk tombol "Tours Package" */
+.nav-button {
+padding: 8px 16px;
+font-size: 16px;
+color: #000;
+background-color: #ffeb3b;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.nav-button:hover {
+background-color: #ffdd00;
+}
+  
